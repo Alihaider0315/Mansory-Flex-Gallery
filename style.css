@@ -27,3 +27,13 @@
 .img-gallery-colum img:hover{
     filter: grayscale(0);
 }
+
+@media screen and (max-width:800px){
+    .img-gallery-colum {
+        flex: 100%;
+        max-width: 100%;
+    }
+    .img-gallery-colum img{
+        filter: grayscale(0);
+    }
+}
